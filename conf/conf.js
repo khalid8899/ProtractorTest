@@ -1,6 +1,6 @@
 // An example configuration file.
  // var HtmlReporter = require('C://Users//DELL//AppData//Roaming//npm//node_modules//protractor//node_modules//protractor-beautiful-reporter');
-  var HtmlReporter = require('..//node_modules//protractor-beautiful-reporter');
+ // var HtmlReporter = require('..//node_modules//protractor-beautiful-reporter');
 
 // C:\Users\DELL\AppData\Roaming\npm\node_modules\protractor\node_modules\
 
@@ -25,12 +25,12 @@ exports.config = {
     defaultTimeoutInterval: 30000
   },
 
-  onPrepare: function() {
+/*  onPrepare: function() {
     // Add a screenshot reporter and store screenshots to `/tmp/screenshots`:
     jasmine.getEnv().addReporter(new HtmlReporter({
        baseDirectory: 'Reports/screenshots'
     }).getJasmine2Reporter());
- }
+ }  */
 
 };
 
