@@ -1,16 +1,9 @@
 // An example configuration file.
-<<<<<<< Updated upstream
- // var HtmlReporter = require('C://Users//DELL//AppData//Roaming//npm//node_modules//protractor//node_modules//protractor-beautiful-reporter');
- // var HtmlReporter = require('..//node_modules//protractor-beautiful-reporter');
-
-// C:\Users\DELL\AppData\Roaming\npm\node_modules\protractor\node_modules\
-=======
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 var reporter = new HtmlScreenshotReporter({
   dest: 'target/screenshots',
   filename: 'my-report.html'
 });
->>>>>>> Stashed changes
 
 exports.config = {
   directConnect: true,
@@ -95,14 +88,6 @@ fs.emptyDir('screenshots/', function (err) {
 
       var HTMLReport = require('protractor-html-reporter-2');
 
-<<<<<<< Updated upstream
-/*  onPrepare: function() {
-    // Add a screenshot reporter and store screenshots to `/tmp/screenshots`:
-    jasmine.getEnv().addReporter(new HtmlReporter({
-       baseDirectory: 'Reports/screenshots'
-    }).getJasmine2Reporter());
- }  */
-=======
       testConfig = {
         reportTitle: 'Protractor Test Execution Report',
         outputPath: './',
@@ -117,7 +102,6 @@ fs.emptyDir('screenshots/', function (err) {
       new HTMLReport().from('xmlresults.xml', testConfig);
     });
   }
->>>>>>> Stashed changes
 
 };
 
